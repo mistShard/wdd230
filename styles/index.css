@@ -1,0 +1,23 @@
+body{
+    max-width: 900px;
+    justify-self: center;
+    margin: auto;
+}
+
+header, footer{
+    color: whitesmoke;
+    background-color: rgb(9, 9, 75);
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px black;
+}
+
+h1 {
+    text-align: center;
+}
+
+img{
+    margin-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+}
