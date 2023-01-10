@@ -29,11 +29,9 @@ const dayName = daynames[d.getDay()];
 const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = `${monthName} ${d.getDate()}, ${year}`;
-let oLastModif = new Date(document.lastModified);
+let oLastModif = (document.lastModified);
 document.getElementById("date").textContent = oLastModif;
-if (Date.parse(document.lastModified) > parseFloat(document.cookie.replace(/(?:(?:^|.*;)\s*last_modif\s*=\s*([^;]*).*$)|^.*$/, "$1") || "0")) {
-    document.cookie = `last_modif=${Date.now()}; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=${location.pathname}`;
-    alert("This page has changed!");
-  }
+document.getElementById("year").textContent = year;
+
   
 
