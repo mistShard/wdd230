@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Fraunces:wght@500&family=Fredericka+the+Great&family=Short+Stack&display=swap");
+
+body{
+    max-width: auto;
+    justify-self: center;
+    margin: auto;
+    background-color: snow;
+    padding: 2rem;
+    font-family: "Comic Neue";
+    font-size:large;
+}
+
+header, footer{
+    color: whitesmoke;
+    background-color: rgb(5, 60, 102);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+h1 {
+    text-align: center;
+    align-self: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+img{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header, footer {
+    align-items: center;
+    padding: .5rem;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+
+footer #copyright {
+    grid-column: 1/span 1;
+}
+
+footer p {
+    grid-column: 2/span 1 ;
+}
