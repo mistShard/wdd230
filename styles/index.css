@@ -1,26 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Fraunces:wght@500&family=Fredericka+the+Great&family=Short+Stack&display=swap");
 
 body{
-    max-width: 1990px;
-    justify-self: center;
-    margin: auto;
+    max-width: 100em;
     background-color: snow;
     padding: 2rem;
     font-family: "Comic Neue";
-    font-size:large;
+    font-size: large;
 }
 
 header, footer{
     color: whitesmoke;
     background-color: rgb(5, 60, 102);
     border-radius: 5px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px rgb(87, 84, 84);
 }
 
 h1 {
     text-align: center;
     align-self: center;
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: bolder;
     padding: 1rem;
 }
@@ -33,12 +31,6 @@ img{
 header {
     display:grid;
     grid-template-columns: 135px auto;
-    align-items: center;
-}
-
-main {
-    display: grid;
-    grid-template-rows: 1fr auto;
     align-items: center;
 }
 
@@ -57,41 +49,12 @@ footer {
     justify-items: center;
 }
 
-footer #copyright {
-    grid-column: 1 / 2;
+p #copyright {
     padding: .5rem;
+    align-self: center;
 }
 
 footer p {
-    grid-column: 2 /3;
     padding: .5rem;
 }
 
-@media only screen and (max-width: 640px) {
-
-    header, footer {
-        display: grid;
-        grid-template-rows: 1fr, 1fr;
-        justify-content: center;
-        justify-items: center;
-        grid-template-columns: none;
-    }
-
-    header img {
-        grid-row: 1 / 2;
-    }
-
-    header h1 {
-        grid-row: 2 / 3;
-    }
-
-    footer p #copyright {
-        grid-row: 1 /2;
-        width: 100em;
-    }
-
-    footer p {
-        grid-row: 2 / 3;
-        max-width: 100%;
-    }
-}
