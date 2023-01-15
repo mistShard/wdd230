@@ -26,8 +26,15 @@ h1 {
     padding: 1rem;
 }
 
+a:nth-of-type(1) {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 h2 {
     background-color: rgb(222, 231, 248);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 h2, h3 {
@@ -45,8 +52,9 @@ main {
 
 section {
     background-color: whitesmoke;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 section a {
@@ -69,7 +77,8 @@ img, p {
     max-width: 400px;
 }
               
-p {word-break: break-all;
+p {
+    word-break: normal;
 }
 
 img {
