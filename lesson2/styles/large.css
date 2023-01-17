@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Fraunces:wght@500&family=Fredericka+the+Great&family=Short+Stack&display=swap");
 
-html {
-    max-width: 100%;
-}
 
 body {
-    max-width: auto;
     justify-self: center;
     margin: auto;
     padding: 2rem;
@@ -38,10 +34,12 @@ h2 {
     background-color: rgb(222, 231, 248);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    font-size: 2em;
 }
 
 h3 {
     font-family: "Fredericka the Great";
+    font-size: 1.7;
 }
 
 h2, h3 {
@@ -55,6 +53,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
+    width: 100%;
 }
 
 section {
@@ -86,6 +85,7 @@ img, p {
               
 p {
     word-break: normal;
+    font-size: 1.5em;
 }
 
 img {
@@ -109,7 +109,7 @@ footer p:nth-of-type(2) {
 }
 
 
-@media screen and (min-width: 700px) and (max-width:800px)
+@media screen and (min-width: 800px) and (max-width:1200px)
 {   
     main {
         display: grid;
@@ -132,3 +132,59 @@ footer p:nth-of-type(2) {
         grid-row: 2/ span 1;
     }
 }
+
+
+@media screen and (max-width: 800px) {
+    main {
+        display: block;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    a {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    #contrast   {
+        grid-row: 1/2;;
+    }
+
+    #proximity {
+        grid-row: 2/3;
+        grid-column: none;
+    }
+
+    #whitespace {
+        grid-row: 3/4;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    #copyright {
+        grid-row: 1/2;
+        text-align: center;
+    }
+
+    p {
+        grid-row: 2/3;
+        text-align: center;
+    }
+}
+
