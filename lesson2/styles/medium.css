@@ -1,0 +1,23 @@
+@media only screen and (min-width:760px) and (max-width:1021px)
+{
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    #contrast {
+        grid-column: 1/ span 1;
+        grid-row: 1/ span 1;
+    }
+
+    #proximity {
+        grid-column: 2/ span 1;
+        grid-row: 1/ span 1;
+    }
+
+    #whitespace {
+        grid-column: 1/ span 1;
+        grid-row: 2/ span 1;
+    }
+}
