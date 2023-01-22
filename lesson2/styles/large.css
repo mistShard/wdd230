@@ -178,11 +178,13 @@ footer p:nth-of-type(2) {
     }
 
     #copyright {
+        grid-column: 1/2;
         grid-row: 1/2;
         text-align: center;
     }
 
-    p {
+    #modify {
+        grid-column: 1/2;
         grid-row: 2/3;
         text-align: center;
     }
