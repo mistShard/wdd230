@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Comic+Neue:wght@300&family=Fredericka+the+Great&family=Itim&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+  padding: 1.5em;
+  background-color: rgb(83, 119, 177);
+}
+
+body {
+  background-color: whitesmoke;
+  padding: 1em;
+  display: block;
+}
+
+h1, li {
+  font-family: "Itim";
+}
+
+h2 {
+  font-family: "Comfortaa";
+}
+
+main p {
+  font-family: "Montserrat";
+}
+
+#logo {
+  width: 100px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+h1, img {
+  align-self: center;
+}
+
+#navBar {
+  display: flex;
+  background-color: rgb(12, 39, 83);
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+#navBar li {
+  margin: .5em;
+  list-style: none;
+  justify-content: center;
+}
+
+#navBar li a {
+  text-decoration: none;
+  color:aliceblue;
+}
+
+#navBar a:hover {
+  background-color: aliceblue;
+  color: rgb(12, 39, 83);
+}
