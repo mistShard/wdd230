@@ -85,6 +85,14 @@ h3 {
     padding: 1rem;
 }
 
+.card li a {
+    text-decoration: none;
+}
+
+.card li a:hover {
+    background-color:rgb(173, 144, 144);
+}
+
 .card {
     text-align: left;
     width: 100%;

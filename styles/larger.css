@@ -31,4 +31,9 @@
         height: 100%;
         margin: 2rem;
     }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
 }
