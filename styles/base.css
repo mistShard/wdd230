@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+html {
+    display: grid;
+    padding: 1rem;
+}
+
+body {
+    font-family: "Roboto Serif";
+    max-width: 1000px;
+    justify-self: center;
+    width: 100%;
+}
+
+header {
+    background-color: rgb(65, 25, 25);
+    color: white;
+    padding: 1rem;
+    display:grid;
+    grid-template-columns: 135px auto;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1 {
+    justify-self: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: aliceblue;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: -15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    color: rgb(65, 25, 25);
+    width: auto;
+}
+
+nav a:hover {
+    border: 1px solid rgb(65, 25, 25);
+    background-color: beige;
+}
+
+main {
+    display: grid;
+    grid-template: auto 1fr 1fr / 1fr;
+    grid-gap: 1px;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px;
+}
+
+h2 {
+    color: rgb(65, 25, 25);
+    text-decoration: underline;
+    padding: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    background-color: rgb(65, 25, 25);
+    color: white;
+    margin: 0;
+    padding: 1rem;
+}
+
+.card li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.card {
+    text-align: left;
+    width: 100%;
+    border: 1px solid rgb(65, 25, 25);
+    max-width: 800px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(87, 84, 84);
+}
+
+
+#two p {
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(65, 25, 25);
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
