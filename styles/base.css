@@ -22,6 +22,21 @@ header {
     margin: 0 auto;
 }
 
+button {
+    grid-column: 1 / span 2;
+    justify-self: right;
+    border-radius: 20px;
+    padding: 0.35rem 1rem;
+    color: rgb(65, 25, 25);
+    border: 1px solid black;
+    position: absolute;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
 h1 {
     justify-self: center;
     padding: 1rem;
@@ -90,7 +105,7 @@ h3 {
 }
 
 .card li a:hover {
-    background-color:rgb(173, 144, 144);
+    background-color:rgb(250, 223, 237);
 }
 
 .card {
@@ -116,3 +131,4 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+/*'✔️';*/
