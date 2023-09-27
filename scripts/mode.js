@@ -20,7 +20,7 @@ btn.addEventListener('click', () => {
         btn.textContent = 'Light Mode';
         body.style.background = 'black';
         b_link.forEach(element => {
-            element.style.color = 'red';
+            element.style.color = '#A5FFC9';
             element.hover
         });
     } else {
@@ -39,3 +39,11 @@ btn.addEventListener('click', () => {
         });
     }
 })
+
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('.navigation');
+
+hamButton.addEventListener('click', () => {
+	navigation.classList.toggle('open');
+	hamButton.classList.toggle('open');
+});
