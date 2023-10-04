@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+html {
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(128, 141, 128);
+}
+
+body {
+    font-family: "Roboto Serif", serif;
+    max-width: 1200px;
+    background-color: rgb(251, 247, 251);
+    justify-self: center;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 79, 2);
+    color:rgb(251, 247, 251);
+    padding: 1rem;
+    align-items: center;
+}
+
+.icon {
+    object-fit: contain;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(140, 112, 140);
+    max-width: 1200px;
+    margin-top: -1rem;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color:aliceblue;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background-color:  rgb(209, 240, 209);
+    color: rgb(49, 2, 49);
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.hero {
+    grid-template-columns: 1 / 2;
+    
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(2, 79, 2);
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+/* For Hamburger Menu*/
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position: relative;
+	right: 0;
+	top: 0;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.navigation li {
+    display: none;
+}
+/* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+

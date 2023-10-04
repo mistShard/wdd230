@@ -1,0 +1,43 @@
+@media screen and (min-width: 700px)
+{
+    header {
+        margin-bottom: 15px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        margin-top: auto;
+        height: 100%;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    /* For Navigation Menu */
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    .hero {
+    height: 100%;
+    object-fit: contain;
+    align-self: center;
+}
+    
+}
