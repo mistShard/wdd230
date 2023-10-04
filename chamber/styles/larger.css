@@ -2,6 +2,8 @@
 {
     header {
         margin-bottom: 15px;
+        flex-direction: row;
+        justify-content: space-between;
     }
     nav ul {
         display: flex;
@@ -34,10 +36,20 @@
 		flex: 1 1 100%;
 	}
 
+    main {
+        display: grid;
+        grid-template-columns: 200px 1fr 200px;
+
+    }
+    
     .hero {
-    height: 100%;
     object-fit: contain;
     align-self: center;
-}
+    grid-column: 1 / span 3;
+    }
+
+    footer {
+        flex-direction: row;
+    }
     
 }
