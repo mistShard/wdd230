@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
 
+
+
 html {
     padding: 0.2rem;
     display: flex;
@@ -67,7 +69,8 @@ main {
 }
 
 .hero {
-    grid-template-columns: 1 / 2;
+    width: 100%;
+    height: auto;
     
 }
 section {
