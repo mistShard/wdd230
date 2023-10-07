@@ -52,4 +52,22 @@
         flex-direction: row;
     }
     
+    /* DISCOVER PAGE */
+    main {
+        display: grid;
+        grid-template: 1fr / 400px 1fr;
+        gap: 10px;
+    }
+
+    .discover-sec {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    picture img:hover {
+        border-radius: 2rem;
+        border-top: .4rem solid rgb(164, 29, 29);
+        transition: .5s;
+ }
 }

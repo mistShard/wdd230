@@ -118,3 +118,13 @@ section {
  #shadow-host-companion {
     display: none;
  }
+
+ /* DISCOVER PAGE */
+
+ picture img {
+    width: 100%;
+    height: auto;
+    margin: .2rem;
+ }
+
+
