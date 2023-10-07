@@ -115,3 +115,6 @@ section {
 	display: block;
 }
 
+ #shadow-host-companion {
+    display: none;
+ }
