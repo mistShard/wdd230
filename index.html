@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <img src="images/new-portrait1.jpg" alt="A head to shoulders picture of me in a dark suit,  wearing spectacles" height="150" width="130">
+        <img src="images/new-portrait1.webp" alt="A head to shoulders picture of me in a dark suit,  wearing spectacles" height="150" width="130">
         <h1>Gozie Benji Nwangele</h1>
         <button type ="button" id="mode">Dark Mode</button>
     </header>
@@ -37,6 +37,15 @@
     </nav>
 
     <main>
+        <div class="hero">
+            <div class="herolabel">
+                <p>Aba Nigeria Temple</p>
+            </div>
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+                <img src="images/hero-medium.webp" alt="A landscape picture of the Aba Nigeria Temple" width="2" height="1">
+            </picture>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
 
         <section class="card" id="one">
@@ -53,10 +62,16 @@
         <section class="card" id="two">
             <h3>Information</h3>
             <p>Weather: <span id="weather">[placeholder]</span></p>
-            <p>Number of visits: <span id="visits">[placeholder]</span></p>
+            <p>Number of visits: <span id="visits"></span></p>
         </section>    
     </main>
-
+    <div id="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118644.45402317743!2d6.990978444478875!3d5.513096087392715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104259980202a4a1%3A0x2b97fd8924660eb1!2sOwerri%2C%20Imo!5e1!3m2!1sen!2sng!4v1696666850951!5m2!1sen!2sng"
+            width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
     <footer>
         <p id="copyright">&copy;<span id="year"></span> Gozie B. Nwangele. Imo </p>
         <p> Last modified: <span id="lastModified"></span></p>
