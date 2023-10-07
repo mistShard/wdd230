@@ -34,7 +34,7 @@ h1, h2 {
 }
 
 nav {
-    background-color: rgb(140, 112, 140);
+    background-color: rgb(76, 39, 76);
     max-width: 1200px;
     margin-top: -1rem;
 }
@@ -52,7 +52,7 @@ nav ul li {
 nav a {
     display: block;
     text-decoration: none;
-    color:aliceblue;
+    color:white;
     text-align: center;
     padding: 1rem;
 }
