@@ -45,7 +45,6 @@ h1 {
 
 img {
     grid-row: 1 / span 2;
-    border-radius: 'rounded';
 }
 
 nav {
