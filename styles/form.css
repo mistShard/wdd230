@@ -1,11 +1,12 @@
 :root {
-    font-size: 16px;
-    color: black;
-    text-align: left;
+    --primary-color: #000;
+    --font-family: sans-serif;
+    --font-size: 16px;
 }
 fieldset {
     width: 100%;
     max-width: 25rem;
+    border: thin solid rgb(221, 214, 214);
 }
 
 fieldset label, fieldset label>input {
@@ -34,7 +35,13 @@ fieldset label>input {
     padding: .75rem;
 }
 
-#btn {
+#r {
+    margin-top: .5rem;
+    width: 100%;
+    max-width: 15rem;
+}
+
+#btn{
     display: block;
     margin-top: 1rem;
     background-color: rgb(85, 7, 7);

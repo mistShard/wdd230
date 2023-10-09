@@ -10,10 +10,10 @@
     <meta property="og:title" content="Gozie Benji Nwangele - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
     <meta property="og:description"
-        content="I am Gozie Benji Nwangele  and this is my WDD 230 - Web Frontend Development Course Assignment Home-page. The purpose of this page is to act as a link to all my assignments in this cours.">
+        content="I am Gozie Benji Nwangele  and this is my WDD 230 - Web Frontend Development Course Assignment Home-page. The purpose of this page is to practice developing HTML forms.">
     <meta property="og:image" content="https://mistshard.github.io/wdd230/images/owerri.jpg">
     <meta property="og:url" content="https://mistshard.github.io/wdd230/">
-    <title>Gozie Benji Nwangele - WDD 230 - Web Frontend Development</title>
+    <title>Gozie Benji Nwangele - WDD 230 - Form Development</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -47,9 +47,9 @@
             <label>Password* <input type="password" name="password" id="password" pattern="^[\w]{8,15}$" required></label>
             <label>Comfirm Password* <input type="password" name="password" id="comfirm-password" required></label>
             <label>Email* <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu$" title="Please enter a valid email address" required></label>
-            <div id="rate">Page Rating</div>
+            <label for="r" id="rate">Page Rating</label>
             <div id="rangevalue">0</div>
-            <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+            <input type="range" id="r" name="r" min="0" max="10" value="0" step="1">
             
         </fieldset>
         <input type="submit" id="btn" name="submitBtn" value="Rate This Page">
