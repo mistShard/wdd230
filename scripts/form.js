@@ -10,8 +10,9 @@ function checkSame() {
 		message.textContent = "❗Key Phrases DO NOT MATCH!";
 		message.style.visibility = "show";
 		p2.style.backgroundColor = "#fff0f3";
+        p1.value = "";
 		p2.value = "";
-		p2.focus();
+		p1.focus();
 	} else {
 		message.style.display = "none";
 		p2.style.backgroundColor = "#fff";
