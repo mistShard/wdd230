@@ -124,7 +124,106 @@ section {
  picture img {
     width: 100%;
     height: auto;
-    margin: .2rem;
+    margin: 2rem;
  }
 
+ /* JOIN PAGE */
+
+#join-main {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    max-width: 30rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+fieldset legend {
+    margin: 0 .5rem;
+    padding: 0 .5rem;
+    color: rgb(49, 2, 49);
+}
+
+ label, input {
+    display: block;
+ }
+
+ label {
+    margin-top: 2rem;
+ }
+
+ input, textarea {
+    padding: .75rem;
+    width: 90%;
+    max-width: 20rem;
+ }
+
+ #btn {
+    margin: 1rem;
+    background-color: rgb(76, 39, 76);
+    max-width: 15rem;
+    color: white;
+    border-radius: 15px;
+    padding: .75rem;
+    margin-left: 2rem;
+ }
+
+ select {
+    padding: .75rem;
+    max-width: 15rem;
+    width: 70%;
+ }
+
+ /* TABLE */
+ table {
+    margin: auto;
+	border: thin solid black;
+	box-shadow: 0 0 10px rgb(230, 220, 220);
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+  color: var(--back);
+  font-size: .85rem;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid rgb(41, 40, 40);
+}
+
+th {
+	background-color: rgb(200, 158, 200);
+	font-size: larger;
+    color: black;
+}
+
+#header, #blank {
+    background-color: rgb(76, 39, 76);
+    color: white;
+    padding: .75rem;
+}
+
+td {
+	text-align: center;
+    padding: .75rem;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: rgb(230, 220, 220);
+}
+
+tbody td:nth-child(1) {
+   font: bold;
+   font-weight: 800;
+}
+
+#join-table {
+    width: 100%;
+    max-width: 30rem;
+}
 
