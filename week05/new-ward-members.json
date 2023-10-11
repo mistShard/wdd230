@@ -1,0 +1,45 @@
+{
+    "familyName": "Umuodumnaagu",
+    "dateMovedIn": {
+        "day": 1,
+        "month": 2,
+        "year": 2023
+    },
+    "numOfPeople": 3,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "firstName": "Agadi",
+            "middleName": "Madu",
+            "lastName": "Umuodumnaagu",
+            "gender": "male",
+            "birthDate": {
+                "day": 6,
+                "month": 11,
+                "year": 1980
+            }
+        },
+        {
+            "firstName": "Umeoma",
+            "middleName": "Nkechinyere",
+            "lastName": "Umuodumnaagu",
+            "gender": "female",
+            "birthDate": {
+                "day": 28,
+                "month": 1,
+                "year": 1990
+            }
+        },
+        {
+            "firstName": "Odogwu",
+            "middleName": "Nwoke",
+            "lastName": "Umuodumnaagu",
+            "gender": "male",
+            "birthDate": {
+                "day": 13,
+                "month": 6,
+                "year": 2012
+            }
+        }
+    ]
+}
