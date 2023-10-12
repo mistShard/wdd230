@@ -34,28 +34,8 @@ function displayLinks(weeks) {
                 week.appendChild(url_title);
                 card.appendChild(week);
             })
+            })
         })
-
-        let birthDate = document.createElement('p');
-        birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
-
-        let birthPlace = document.createElement('p');
-        birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
-
-        let portrait = document.createElement('img');
-        portrait.setAttribute('src', `${prophet['imageurl']}`);
-        portrait.setAttribute('alt', 'Portrait of a prophet');
-        portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('wdith', '340');
-        portrait.setAttribute('height', '440');
-
-        card.appendChild(fullName);
-        card.appendChild(birthDate);
-        card.appendChild(birthPlace);
-        card.appendChild(portrait);
-
-        cards.appendChild(card);
-    });
-}
+    }
 
 getLinks(linksURL);
