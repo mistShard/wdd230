@@ -206,3 +206,16 @@ footer {
 .open li a {
 	display: block;
 }
+
+#weather {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#two img {
+    width: 20%;
+    height: 20%;
+    color: rgb(2, 47, 2);
+}

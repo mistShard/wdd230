@@ -7,6 +7,7 @@ const h2 = document.querySelector('h2');
 const body = document.querySelector('body');
 const link = document.querySelectorAll('li>a');
 const b_link = document.querySelectorAll('body > main > section > ul > li > a');
+console.log(b_link);
 
 btn.addEventListener('click', () => {
     if (btn.textContent == 'Dark Mode') {
@@ -19,8 +20,9 @@ btn.addEventListener('click', () => {
         card.style.boxShadow = 'none';
         btn.textContent = 'Light Mode';
         body.style.background = 'black';
+
         b_link.forEach(element => {
-            element.style.color = '#A5FFC9';
+            element.style.color = 'white';
             element.hover
         });
     } else {

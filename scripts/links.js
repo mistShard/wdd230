@@ -5,36 +5,39 @@ async function getLinks(linksURL) {
     const response = await fetch(linksURL);
     if (response.ok) {
         const data = await response.json();
-        console.log(data.weeks);
+        //console.log(data.weeks);
         displayLinks(data.weeks);
     }
 }
 
 function displayLinks(weeks) {
-    weeks.forEach(week => {
+    //console.log(weeks);
+    weeks.forEach(a_week => {
         let card = document.querySelector('#assignment-links');
+        let list_element = document.createElement('li');
+        list_element.textContent = `${a_week.week}:`;
 
-       
-        week.forEach(links => {
-            let week = document.createElement('li');
-            week.textContent = `${links.week}: `;
-            links.link.forEach(a_block => {
-                let url_title = document.createElement('a');
-                url_title.setAttribute('href', a_block.url);
+        //console.log(a_week);
+        all_links = a_week.links;
 
-                let link_divider = " | ";
+        all_links.forEach(link_title => {
+            let links = link_title.url;
+            //console.log(links);
 
-                if (a_block === links.link[-1]) {
-                    link_divider = "";
-                }
+            let link_url = document.createElement('a');
+            link_url.setAttribute('href', link_title.url);
+            link_url.style.color = 'navy';
+            // if(link_title.title === link_title[-1]) {
+            //     console.log('last one');
+            // }else {console.log('not last');}
 
-                url_title.textContent = `${a_block.title}${link_divider}`;
+            link_url.textContent = ` ${link_title.title} |`;
 
-
-                week.appendChild(url_title);
-                card.appendChild(week);
-            })
-            })
+            list_element.appendChild(link_url);
+            card.appendChild(list_element);
+            
+        });
+            
         })
     }
 
