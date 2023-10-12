@@ -66,8 +66,8 @@
     }
 
     picture img:hover {
-        border-radius: 2rem;
-        border-top: .4rem solid rgb(164, 29, 29);
+        border-radius: 1rem;
+        border-top: .4rem solid rgb(5, 94, 26);
         transition: .5s;
     }
 

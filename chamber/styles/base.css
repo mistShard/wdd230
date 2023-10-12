@@ -124,7 +124,8 @@ section {
  picture img {
     width: 100%;
     height: auto;
-    margin: 0rem;
+    border-radius: 5px;
+    box-shadow: 0 0 20px gray;
  }
 
  /* JOIN PAGE */
