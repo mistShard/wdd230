@@ -7,7 +7,7 @@ const h2 = document.querySelector('h2');
 const body = document.querySelector('body');
 const link = document.querySelectorAll('li>a');
 const b_link = document.querySelectorAll('body > main > section > ul > li > a');
-console.log(b_link);
+//console.log(b_link);
 
 btn.addEventListener('click', () => {
     if (btn.textContent == 'Dark Mode') {
