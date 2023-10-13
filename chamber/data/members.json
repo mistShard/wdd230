@@ -1,0 +1,60 @@
+{
+    "organizations": [
+        {
+            "name": "Kholin Foundation",
+            "phone": "001112345",
+            "address": "Floor 1000, Urithiru, Roshar, Owerri",
+            "url": "http://the.oathbringer",
+            "img": "https://1.bp.blogspot.com/_7tumTwbKSn0/R6347iycQJI/AAAAAAAAAAk/8kZYM16SB7c/s320/flor2+png.png",
+            "level": "Gold"
+        },
+        {
+            "name": "La Rezorta",
+            "phone": "0201112345",
+            "address": "#14 Mbieri, Owerri",
+            "url": "http://la.rezorta",
+            "img": "https://1.bp.blogspot.com/_7tumTwbKSn0/R6347iycQJI/AAAAAAAAAAk/8kZYM16SB7c/s320/flor2+png.png",
+            "level": "Gold"
+        },
+        {
+            "name": "Ubi",
+            "phone": "9901112345",
+            "address": "Nwaturuocha, Ikenegbu, Owerri",
+            "url": "http://the.ubir",
+            "img": "https://1.bp.blogspot.com/_7tumTwbKSn0/R6347iycQJI/AAAAAAAAAAk/8kZYM16SB7c/s320/flor2+png.png",
+            "level": "Silver"
+        },
+        {
+            "name": "Veritas Medicine",
+            "phone": "044442345",
+            "address": "Apartment 8, Obi drive, Owerri",
+            "url": "http://veritas.med",
+            "img": "https://1.bp.blogspot.com/_7tumTwbKSn0/R6347iycQJI/AAAAAAAAAAk/8kZYM16SB7c/s320/flor2+png.png",
+            "level": "Gold"
+        },
+        {
+            "name": "The Wave",
+            "phone": "055512345",
+            "address": "72, Ikom Road, Owerri",
+            "url": "http://thewave.ride",
+            "img": "https://1.bp.blogspot.com/_7tumTwbKSn0/R6347iycQJI/AAAAAAAAAAk/8kZYM16SB7c/s320/flor2+png.png",
+            "level": "Bronze"
+        },
+        {
+            "name": "The Caring Place",
+            "phone": "11111111",
+            "address": "12 City scape district, Owerri",
+            "url": "http://wecare.place",
+            "img": "https://1.bp.blogspot.com/_7tumTwbKSn0/R6347iycQJI/AAAAAAAAAAk/8kZYM16SB7c/s320/flor2+png.png",
+            "level": "Non-Profit"
+        },
+        {
+            "name": "Astronomers Guild",
+            "phone": "00000009",
+            "address": "155 Ukpa Drive, Owerri",
+            "url": "http://astonomer.guild",
+            "img": "https://1.bp.blogspot.com/_7tumTwbKSn0/R6347iycQJI/AAAAAAAAAAk/8kZYM16SB7c/s320/flor2+png.png",
+            "level": "Bronze"
+        }
+    ]
+}
