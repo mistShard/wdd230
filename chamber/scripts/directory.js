@@ -1,5 +1,5 @@
 const contentURL = "https://mistshard.github.io/wdd230/chamber/data/members.json";
-const cards = document.querySelector('article');
+const cards = document.querySelector('#article');
 const btn = document.querySelector('#grid-btn');
 
 
@@ -22,9 +22,9 @@ const displayContent = (organizations) => {
         memberLogo.setAttribute('alt', 'Company Logo');
         memberLogo.setAttribute('loading', 'lazy');
         memberLogo.setAttribute('width', '200');
-        memberLogo.setAttribute('height', '100');
+        memberLogo.setAttribute('height', '180');
 
-        let memberName = document.createElement('h2');
+        let memberName = document.createElement('h3');
         memberName.textContent = `${member.name}`;
 
         let memberAddress = document.createElement('p');
@@ -41,7 +41,7 @@ const displayContent = (organizations) => {
 
         memberURLHolder.appendChild(memberURL);
 
-        let memberLevel = document.createElement('h3');
+        let memberLevel = document.createElement('h4');
         memberLevel.textContent = `${member.level}`;
         
 
@@ -60,7 +60,7 @@ getContent(contentURL);
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
+const display = document.querySelector("#article");
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 

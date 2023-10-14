@@ -240,7 +240,7 @@ tbody td:nth-child(1) {
 	flex-direction: column;
 }
 
-article {
+article, div {
     width: 100%;
 }
 
