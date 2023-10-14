@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: "Roboto Serif", serif;
-    max-width: 1200px;
+    max-width: 1100px;
     background-color: rgb(251, 247, 251);
     justify-self: center;
 }
@@ -128,6 +128,10 @@ section {
     box-shadow: 0 0 20px gray;
  }
 
+div#visits p {
+    text-align: center;
+ }
+
  /* JOIN PAGE */
 
 #join-main {
@@ -229,6 +233,13 @@ tbody td:nth-child(1) {
 }
 
 /* DIRECTORY PAGE */
+
+#grid, #list {
+    margin: .3rem;
+    border-radius: 5px;
+    font-weight: 700;
+    border-left: rgb(174, 10, 10) solid 6px;
+}
 
 .grid section p {
     margin: 0;
