@@ -13,6 +13,12 @@ hamButton.addEventListener('click', () => {
 	hamButton.classList.toggle('open');
 });
 
+
+// For Directory page
+
+
+
+
 const message = document.querySelector('#message');
 
 function getCurrentTimestamp() {

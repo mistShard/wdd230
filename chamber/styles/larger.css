@@ -88,4 +88,27 @@
         margin-top: 5rem;
         margin-right: 1rem;
     }
+
+    /* DIRECTORY PAGE */
+    #dir-main {
+        display: block;
+    }
+
+    #dir-main .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: .4rem;
+    }
+
+    .list section img {
+	width: 100%;
+    height: auto;
+    }
+
+    .list section {
+        display: grid;
+	    grid-template-columns: 30rem 1fr 1fr 1fr 1fr;
+	    margin: 0;
+	    padding: 0.25rem;
+    }
 }

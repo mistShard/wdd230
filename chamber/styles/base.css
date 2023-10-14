@@ -228,3 +228,54 @@ tbody td:nth-child(1) {
     max-width: 30rem;
 }
 
+/* DIRECTORY PAGE */
+
+.grid section p {
+    margin: 0;
+    padding: .5rem;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+article {
+    width: 100%;
+}
+
+.list section {
+	display: block;
+    margin: 0;
+}
+
+.list section h2 {
+    text-align: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+
+section h3 {
+	font-size: 1.5rem;
+}
+
+section p {
+	font-weight: 600;
+	font-size: smaller;
+}
+

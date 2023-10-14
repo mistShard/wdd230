@@ -203,6 +203,7 @@ footer {
 	display: block;
 	width: 100%;
 }
+
 .open li a {
 	display: block;
 }
@@ -218,4 +219,37 @@ footer {
     width: 20%;
     height: 20%;
     color: rgb(2, 47, 2);
+}
+
+
+/* DIRECTORY PAGE */
+#dir-main {
+    display: block;
+}
+
+
+article#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: .4rem;
+}
+
+#grid-btn {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position: relative;
+	right: 0;
+	top: 0;
+}
+
+.grid-btn::before {
+    content: "⏹️Grid";
+ 
+}
+
+#grid-btn.open::before {
+    content: "📄List";
 }
