@@ -14,7 +14,7 @@ hamButton.addEventListener('click', () => {
 });
 
 // For showing active page
-const current = 0;
+let current = 0;
 for (let i = 0; i < document.links.length; i++) {
     if (document.links[i].href === document.URL) {
         current = i;
@@ -22,40 +22,3 @@ for (let i = 0; i < document.links.length; i++) {
 }
 document.links[current].className = 'current';
 
-// For Directory page
-
-
-
-
-const message = document.querySelector('#message');
-
-function getCurrentTimestamp() {
-	return new Date().getTime();
-}
-
-const lastVisitTimestamp = localStorage.getItem('lastVisitTimestamp');
-
-if (lastVisitTimestamp) {
-	const currentTime = getCurrentTimestamp();
-	const lastVisitTime = parseInt(lastVisitTimestamp, 10);
-
-	const timeDifference = currentTime - lastVisitTime;
-	const milliSecondsPerDay = 24 * 60 * 60 * 1000;
-
-	if (timeDifference < milliSecondsPerDay) {
-		message.innerHTML = 'Back so soon! <strong><em>Awesome!</em></strong>';
-	}else {
-		const daysSinceLastVisit = Math.floor(timeDifference / milliSecondsPerDay);
-		let word = 'days';
-		if (daysSinceLastVisit === 1) {
-			word = 'day';
-		}
-		message.innerHTML = `You last visited <strong><em>${daysSinceLastVisit} ${word}</em></strong> ago.`;
-	}
-}else {
-	message.innerHTML = '<em><strong>Welcome!</strong></em> Let us know if you have any questions.';
-}
-
-localStorage.setItem('lastVisitTimestamp', getCurrentTimestamp().toString());
-
-console.log(getCurrentTimestamp());

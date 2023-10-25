@@ -1,4 +1,4 @@
-@media screen and (min-width: 700px)
+@media screen and (min-width: 800px)
 {
 
     body {
@@ -6,10 +6,15 @@
     }
 
     header {
+        display: grid;
         margin-bottom: 15px;
-        flex-direction: row;
-        justify-content: space-between;
+        grid-template-columns: auto 1fr;
     }
+
+    header h1 {
+        justify-self: center;
+    }
+
     nav ul {
         display: flex;
         justify-content: space-around;
@@ -41,17 +46,30 @@
 		flex: 1 1 100%;
 	}
 
-    main {
+    #index_main {
         display: grid;
-        grid-template-columns: 200px 1fr 200px;
+        grid-template-columns: 300px 1fr auto;
 
+    }
+
+    #index_main section {
+        margin: .1rem;
     }
     
     .hero {
-    object-fit: contain;
-    align-self: center;
-    grid-column: 1 / span 3;
+        object-fit: contain;
+        align-self: center;
+        grid-column: 1 / span 3;
     }
+
+    #right-panel, #left-panel {
+        width: 100%;
+    }
+
+    #right-panel .weather {
+        padding-right: 2px;
+    }
+
 
     footer {
         flex-direction: row;
@@ -68,6 +86,7 @@
         height: 100%;
         padding: 0;
         margin: 0;
+        border: none;
     }
 
     picture img:hover {
@@ -112,10 +131,9 @@
 
     .list section {
         display: grid;
-	    grid-template-columns: 15rem 20rem 1fr 1fr 1fr;
+	    grid-template-columns: 1fr 1fr 6rem 1fr 6rem;
 	    margin: 0;
 	    padding: 0.75rem;
     }
-
 
 }
