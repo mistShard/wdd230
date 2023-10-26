@@ -98,12 +98,16 @@ section h2, h2 {
 }
 
 .spotlight {
-    border: 0;
     border-top: 2px ridge rgb(76, 39, 76);
     margin: 0;
     padding: 0;
     width: 92%;
     padding-top: 2px;
+    border-bottom: none;
+}
+
+#article .spotlight {
+    border-bottom: 0;
 }
 
 #middle-panel a {

@@ -13,6 +13,11 @@ hamButton.addEventListener('click', () => {
 	hamButton.classList.toggle('open');
 });
 
+// For showing invitation picture
+const d = new Date();
+let day = d.getDay();
+console.log(day);
+
 // For showing active page
 let current = 0;
 for (let i = 0; i < document.links.length; i++) {

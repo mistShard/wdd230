@@ -29,7 +29,6 @@ async function apiFetch(url) {
 }
 
 function displayResults(data) {
-    console.log(data);
   currentTemp.innerHTML = `~  ${data.current.temp}&deg;C`;
   const iconsrc = `https://openweathermap.org/img/w/${data.current.weather[0].icon}.png`;
   let descrip = data.current.weather[0].description;
@@ -40,7 +39,6 @@ function displayResults(data) {
   temp1.innerHTML = `~  ${data.daily[1].temp.day}&deg;C`;
   const iconsrc1 = `https://openweathermap.org/img/w/${data.daily[1].weather[0].icon}.png`;
   let descrip1 = data.daily[1].weather[0].description;
-  console.log(descrip1);
   icon1.setAttribute('src', iconsrc1);
   icon1.setAttribute('alt', 'weather icon');
   desc1.textContent = `${descrip1} ~  `;
@@ -48,7 +46,6 @@ function displayResults(data) {
   temp2.innerHTML = `~  ${data.daily[2].temp.day}&deg;C`;
   const iconsrc2 = `https://openweathermap.org/img/w/${data.daily[2].weather[0].icon}.png`;
   let descrip2 = data.daily[2].weather[0].description;
-  console.log(descrip2);
   icon2.setAttribute('src', iconsrc2);
   icon2.setAttribute('alt', 'weather icon');
   desc2.textContent = `${descrip2} ~  `;
@@ -56,7 +53,6 @@ function displayResults(data) {
   temp3.innerHTML = `~  ${data.daily[3].temp.day}&deg;C`;
   const iconsrc3 = `https://openweathermap.org/img/w/${data.daily[3].weather[0].icon}.png`;
   let descrip3 = data.daily[3].weather[0].description;
-  console.log(descrip3);
   icon3.setAttribute('src', iconsrc3);
   icon3.setAttribute('alt', 'weather icon');
   desc3.textContent = `${descrip3} ~  `;
