@@ -13,30 +13,6 @@ hamButton.addEventListener('click', () => {
 	hamButton.classList.toggle('open');
 });
 
-// For showing invitation picture
-const d = new Date();
-let day = d.getDay();
-
-if (day === 1 || day === 2 || day === 4) {
-    const image = document.querySelector('.hero');
-    const main = document.querySelector('#index_main');
-
-    let figure = document.createElement('figure');
-    image.setAttribute('src', 'images/meet-invite.webp');
-    image.setAttribute('alt', 'An invitation to meet and greet');
-
-    const content = document.createElement('button');
-    content.textContent = '❌';
-
-    content.addEventListener('click', () => {
-        image.setAttribute('src', 'images/hero.webp');
-        image.setAttribute('alt', 'A hero banner with a picture of city traffic and welcoming words');
-        content.setAttribute('id', 'remove');
-    })
-
-    main.appendChild(content)
-    image.classList.add('invite');
-}
 
 // For showing active page
 let current = 0;
