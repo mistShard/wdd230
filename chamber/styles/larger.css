@@ -53,10 +53,6 @@
         align-items: center;
     }
 
-    #right-panel p{
-        text-align: left;
-    }
-
     #index_main section {
         margin: .1rem;
     }
@@ -74,7 +70,6 @@
     #right-panel {
         padding: .5rem;
         width: 96%;
-        align-content: left;
     }
 
     #right-panel .weather {
@@ -129,7 +124,7 @@
         display: block;
     }
 
-    .grid {
+    div#article.grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         gap: .4rem;

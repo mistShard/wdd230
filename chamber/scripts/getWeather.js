@@ -34,6 +34,8 @@ function displayResults(data) {
   let descrip = data.current.weather[0].description;
   weatherIcon.setAttribute('src', iconsrc);
   weatherIcon.setAttribute('alt', 'weather icon');
+  weatherIcon.setAttribute('width', '40');
+  weatherIcon.setAttribute('height', '40');
   captionDesc.textContent = `${descrip} ~  `;
 
   temp1.innerHTML = `~  ${data.daily[1].temp.day}&deg;C`;
@@ -41,6 +43,8 @@ function displayResults(data) {
   let descrip1 = data.daily[1].weather[0].description;
   icon1.setAttribute('src', iconsrc1);
   icon1.setAttribute('alt', 'weather icon');
+  icon1.setAttribute('width', '40');
+  icon1.setAttribute('height', '40');
   desc1.textContent = `${descrip1} ~  `;
 
   temp2.innerHTML = `~  ${data.daily[2].temp.day}&deg;C`;
@@ -48,6 +52,8 @@ function displayResults(data) {
   let descrip2 = data.daily[2].weather[0].description;
   icon2.setAttribute('src', iconsrc2);
   icon2.setAttribute('alt', 'weather icon');
+  icon2.setAttribute('width', '40');
+  icon2.setAttribute('height', '40');
   desc2.textContent = `${descrip2} ~  `;
 
   temp3.innerHTML = `~  ${data.daily[3].temp.day}&deg;C`;
@@ -55,6 +61,8 @@ function displayResults(data) {
   let descrip3 = data.daily[3].weather[0].description;
   icon3.setAttribute('src', iconsrc3);
   icon3.setAttribute('alt', 'weather icon');
+  icon3.setAttribute('width', '40');
+  icon3.setAttribute('height', '40');
   desc3.textContent = `${descrip3} ~  `;
 }
 

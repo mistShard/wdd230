@@ -82,6 +82,23 @@ main {
     margin-bottom: 2rem;
 }
 
+#index_main {
+    position: relative;
+}
+
+#index_main>button {
+    position: absolute;
+    color: black;
+    height: auto;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+
+#remove {
+    display: none;
+}
+
 section {
     display: flex;
     flex-direction: column;
