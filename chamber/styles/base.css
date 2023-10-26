@@ -74,7 +74,6 @@ main {
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding: .75rem;
 }
 
 .hero {
@@ -114,6 +113,10 @@ section h2, h2 {
 
 #middle-panel a:hover {
     background-color: black;
+}
+
+.meet {
+    display: none;
 }
 
 .word {
